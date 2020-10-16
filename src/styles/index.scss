@@ -1,0 +1,21 @@
+@import "~@coreui/coreui/scss/coreui";
+
+.loading {
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+
+  &,
+  & * {
+    pointer-events: none;
+    user-select: none;
+  }
+
+  &.in {
+    background-color: transparentize($color: $primary, $amount: 0.8);
+    opacity: 1;
+    pointer-events: auto;
+    user-select: auto;
+  }
+}

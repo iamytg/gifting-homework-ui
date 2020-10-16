@@ -3,12 +3,22 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@coreui/coreui": "^3.3.0",
+    "@coreui/react": "^3.3.1",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.20.0",
+    "core-js": "^3.6.5",
+    "node-sass": "^4.14.1",
     "react": "^16.14.0",
+    "react-app-polyfill": "^1.0.6",
     "react-dom": "^16.14.0",
-    "react-scripts": "3.4.3"
+    "react-json-prettify": "^0.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.3",
+    "react-spinners": "^0.9.0",
+    "regenerator-runtime": "^0.13.7"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -30,5 +40,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "prettier": "^2.1.2"
   }
 }
